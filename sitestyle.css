@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@viewport {
+	width: device-width;
+	zoom: 1;
+	min-zoom: 0.5;
+	max-zoom: 2;
+	user-zoom: fixed;
+}
+
+body, p{
+	padding: 30px;
+	font-family: sans-serif, Arial;
+	font-size: 18px;
+	background: black;
+	color: limegreen;
+}
+
+a {
+	font-family: sans-serif, Arial;
+	font-size: 18px;
+	background: black;
+	color: lime;
+}
+
+a:hover {
+	color: white;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 28 px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.header {
+	padding: 50px;
+	text-align: center;
+}
+
+.navigation {
+	float: center;
+	clear: right;
+	overflow: hidden;
+	display: block;
+	text-align: left;
+	padding: 20px;
+}
+
+.resume {
+	padding: 20px;
+	text-align: left:
+}
